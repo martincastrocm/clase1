@@ -58,15 +58,15 @@ extern "C" {
 /*==================[external data declaration]==============================*/
 
 /*==================[external functions declaration]=========================*/
-/** \brief resumen de lo que hace la función
+/** \brief resumen de lo que hace la funcion
  **
- ** más comentarios de lo que hace la función
+ ** mas comentarios de lo que hace la funcion
  **
- ** \param[in]    a first parameter ...
- ** \param[in]    b second parameter ...
- ** \return E_OK  returns ...
+ ** \param[in]    a entero de 16 bit
+ ** \param[in]    b entero de 16 bit
+ ** \return E_OK  returns a + b
  **/
-extern int32_t funcion(uint8_t a, uint32_t b);
+extern int16_t funcion(uint16_t a, uint16_t b);
 
 /*==================[cplusplus]==============================================*/
 #ifdef __cplusplus
