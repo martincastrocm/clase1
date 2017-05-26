@@ -66,7 +66,7 @@ extern "C" {
  ** \param[in]    b entero de 16 bit
  ** \return E_OK  returns a + b
  **/
-extern int16_t funcion(uint16_t a, uint16_t b);
+extern int16_t sumaint16(uint16_t a, uint16_t b);
 
 /*==================[cplusplus]==============================================*/
 #ifdef __cplusplus
